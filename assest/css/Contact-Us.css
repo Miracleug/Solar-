@@ -52,11 +52,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-<<<<<<< HEAD
   justify-content: space-between;
-=======
-  gap: 5em;
->>>>>>> 84c818f90e75b2107c48f85ca9f6955fcde58cae
 }
 
 .form__inputs {
