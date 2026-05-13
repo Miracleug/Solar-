@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.footer {
+  width: 100%;
+  min-height: 431px;
+  height: auto;
+  background: #F3FAFA;
+  box-shadow: 0 3px 35px 0 #00000014;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.footer__wrapper {
+  max-width: 978px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 6.6em;
+}
+
+.footer__content-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.6em;
+}
+
+.footer__text {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 7%;
+  color: #535353;
+}
+
+.footer__social-media {
+  display: flex;
+  align-items: start;
+  gap: 0.6em;
+}
+
+.footer__links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5.4em;
+}
+
+.footer__link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.6em;
+}
+
+.footer__link-title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #1E1E1E;
+}
+
+.footer__link-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #535353;
+  text-decoration: none;
+}
+
+.footer__link-container-1 {
+  display: none;
+}
+
+.footer__copyright-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #535353;
+}
+
+@media screen and  (max-width: 780px) {
+  .footer {
+    width: 100%;
+    min-height: 1115.75px;
+    height: auto;
+    background: #F3FAFA;
+    box-shadow: 0 3px 35px 0 #00000014;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__wrapper {
+    max-width: 418px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+  }
+
+  .footer__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 33px;
+  }
+
+  .footer__content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 26px;
+  }
+
+  .footer__text {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 7%;
+    color: #535353;
+  }
+
+  .footer__social-media {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 86px;
+  }
+
+  .footer__link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 26px;
+  }
+
+  .footer__link-container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 26px;
+  }
+
+  .footer__link-title {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1E1E1E;
+  }
+
+  .footer__link-text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #535353;
+    text-decoration: none;
+  }
+
+  .footer__lang-wrapper {
+    max-width: 84px;
+    min-height: 47px;
+    border: none;
+    padding: 14px 16px;
+    background: #36689E;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+  }
+
+  .footer__copyright-text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;  
+    letter-spacing: 0%;
+    color: #535353;
+  }
+}

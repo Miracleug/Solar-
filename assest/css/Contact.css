@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
+}
+
+.main__contact {
+	width: 100%;
+	min-height: 811px;
+	height: auto;
+	margin-top: 4em;
+}
+
+.contact__header {
+	text-align: center;
+}
+
+.contact__heading {
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0%;
+	color: #36689E;
+}
+
+.contact__title {
+	font-family: "Inter";
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 52px;
+	letter-spacing: 1%;
+	color: #282828;
+}
+
+.contact__wrapper {
+	display: flex;
+	align-items: center;
+	gap: 81px;
+}
+
+.contact__img {
+	max-width: 686px;
+	width: 90%;
+	min-height: 666px;
+	height: auto;
+}
+
+.signup-form {
+	display: flex;
+	align-items: start;
+	flex-direction: column;
+	gap: 28px;
+}
+
+.signup-form__title {
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 100%;
+	letter-spacing: 0px;
+	color: #252B42;
+}
+
+.signup-form__text {
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 140%;
+	letter-spacing: 0px;
+	color: #858585;
+}
+
+.signup-form__full-name {
+	max-width: 541.22px;
+	width: 90%;
+	min-height: 69.76px;
+	height: auto;
+	border-radius: 19px;
+	border: 1px solid #F4F6F9;
+	box-shadow: 0 5px 30px 0 #00000017;
+	padding-left: 20px;
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 140%;
+	letter-spacing: 0%;
+	color: #858C94;
+}
+
+.signup-form__full-name::placeholder {
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 140%;
+	letter-spacing: 0%;
+	color: #858C94;
+}
+
+.signup-form__btn {
+	max-width: 117px;
+	width: 90%;
+	min-height: 53px;
+	height: auto;
+	border-radius: 16px;
+	border: 1px solid #E6E6E6;
+	background: #36689E;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+
+@media screen and (max-width: 780px) {
+	.contact {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+	}
+
+	.main__contact {
+		width: 100%;
+		min-height: 589.51px;
+		height: auto;
+	}
+
+	.contact__header {
+		text-align: center;
+	}
+
+	.contact__heading {
+		font-family: "Roboto";
+		font-weight: 700;
+		font-size: 15px;
+		line-height: 28px;
+		letter-spacing: 0%;
+		color: #36689E;
+	}
+
+	.contact__title {
+		font-family: "Inter";
+		font-weight: 600;
+		font-size: 30px;
+		line-height: 52px;
+		letter-spacing: 1%;
+		color: #282828;
+	}
+
+	.contact__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contact__img {
+		display: none;
+	}
+
+	.signup-form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 28px;
+	}
+
+	.contact__signup-form {
+		max-width: 461px;
+		width: 90%;
+		min-height: 397.51px;
+		height: auto;
+	}
+
+	.signup-form__title {
+		font-family: "Roboto";
+		font-weight: 700;
+		font-size: 25px;
+		line-height: 100%;
+		letter-spacing: 0%;
+		color: #252B42;
+		text-align: center;
+	}
+
+	.signup-form__text {
+		display: none;
+	}
+
+	.signup-form__full-name {
+		max-width: 406px;
+		width: 90%;
+		min-height: 88.84px;
+		height: auto;
+		border: 1px solid #E6E6E6;
+		background: #F9F9F9;
+		border-radius: 19px;
+		box-shadow: 0 5px 30px 0 #00000017;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-left: 20px;
+		font-family: "Roboto";
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 140%;
+		letter-spacing: 0%;
+		color: #858C94;
+	}
+
+	.signup-form__full-name::placeholder {
+		font-family: "Roboto";
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 140%;
+		letter-spacing: 0%;
+		color: #858C94;
+	}
+
+	.signup-form__btn {
+		max-width: 117px;
+		width: 90%;
+		min-height: 53px;
+		height: auto;
+		border-radius: 16px;
+		border: 1px solid #E6E6E6;
+		background: #36689E;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: "Roboto";
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 140%;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		cursor: pointer;
+	}
+}
